@@ -1,0 +1,97 @@
+body{
+	background-color: white;
+}
+
+#logo{
+	width: 30%;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	color: black;
+	padding-right: 70px;
+}
+ a{
+ 	text-decoration: none; 
+ }
+
+  .menu{
+  	width: 50%;
+  	display: flex;
+  	justify-content: space-around;
+  }
+
+  .header{
+  	display: flex;
+  	justify-content: space-around;
+  }
+
+  .content{
+  	display: flex;
+  	flex-wrap: wrap;
+  }
+
+  .id{
+  	display: flex;
+  	justify-content: space-around; 
+  }
+  .icon{
+  	display: flex;
+  	width: 40%;
+  	justify-content: flex-end;
+  	color: darkorange;
+  	margin-right: 30px;
+  	margin-top: 30px; 
+  }
+  .features{
+  	display: flex;
+  	justify-content: center;
+  	margin-top: 20px;
+  	margin-bottom: 20px;
+  }
+
+  .text{
+  	display: flex;
+  	flex-wrap: wrap;
+  	align-content: center;
+  	width: 30%; 
+  }
+  .email{
+  	display: flex;
+  	justify-content: center;
+  	flex-direction: column;
+  }
+  #box{
+  	display: flex;
+  	justify-content: center;
+
+  }
+  #forma{
+  	display: flex;
+  	justify-content: center;
+  }
+  #howItWorks{
+  	display: flex;
+  	justify-content: center;
+  }
+  .box1{
+  	width: 25%;
+  	margin: 5%;
+  	text-align: center;
+  	padding-bottom: 5%;
+  	border: 2px lightgrey;  
+  }
+  .tabela{
+  	display: flex;
+  	flex-direction: row; 
+  }
+  h3{
+  	margin-top: 0;
+
+  }
+  button{
+  	background-color: #f1c40f;
+  	width: 40%;
+  	height: 20%; 
+  }
